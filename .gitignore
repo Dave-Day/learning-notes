@@ -221,5 +221,4 @@ yarn-error.log
 
 # End of https://www.toptal.com/developers/gitignore/api/jetbrains+all,node,visualstudiocode,vuejs
 
-/public
-Src/LeetCode/Temp
+.github/workflows/*.yml
