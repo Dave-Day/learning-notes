@@ -1,0 +1,15 @@
+name: 🤖 Auto Make Release
+
+on: create
+
+jobs:
+  release-helper:
+    runs-on: ubuntu-latest
+    steps:
+      - name: make release
+        uses: actions-cool/release-helper@v1
+        with:
+          token: ${{ secrets.RYAN_TOKEN }}
+          triger: "tag"
+          changelogs: "CHANGELOG.zh-CN.md"
+          branch: "master"

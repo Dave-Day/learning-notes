@@ -1,0 +1,30 @@
+name: Check need info
+
+on:
+  schedule:
+    - cron: "0 0 */14 * *"
+
+jobs:
+  check-need-info:
+    runs-on: ubuntu-latest
+    steps:
+      - name: close-issues
+        uses: actions-cool/issues-helper@main
+        with:
+          actions: "close-issues"
+          token: ${{ secrets.RYAN_TOKEN }}
+          labels: "😄 to do"
+          issue-assignee: "Ryanjiena"
+          inactive-day: 14
+          body: |
+            "由于该 issue 被标记为 \`to do\`，却 14 天未收到回应。现关闭 issue，若有任何问题，可评论回复。"
+            "Since the issue was labeled with `to do`, but no response in 14 days. This issue will be closed. If you have any questions, you can comment and reply."
+            
+      - name: Remove labels
+          uses: actions-cool/issues-helper@main
+          with:
+            actions: 'remove-labels'
+            token: ${{ secrets.RYAN_TOKEN }}
+            issue-number: ${{ github.event.issue.number }}
+            labels: '😄 to do,in-progress,priority-2'
+
