@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: close-issues
-        uses: actions-cool/issues-helper@main
+        uses: actions-cool/issues-helper@v1.11
         with:
           actions: "close-issues"
           token: ${{ secrets.RYAN_TOKEN }}
@@ -21,7 +21,7 @@ jobs:
             "Since the issue was labeled with `to do`, but no response in 14 days. This issue will be closed. If you have any questions, you can comment and reply."
             
       - name: Remove labels
-          uses: actions-cool/issues-helper@main
+          uses: actions-cool/issues-helper@v1.11
           with:
             actions: 'remove-labels'
             token: ${{ secrets.RYAN_TOKEN }}

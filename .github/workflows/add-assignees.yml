@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Add assigness
-        uses: actions-cool/issues-helper@main
+        uses: actions-cool/issues-helper@v1.11
         with:
           actions: "add-assignees"
           token: ${{ secrets.RYAN_TOKEN }}

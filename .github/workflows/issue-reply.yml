@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: help wanted
         if: github.event.label.name == 'help wanted'
-        uses: actions-cool/issues-helper@main
+        uses: actions-cool/issues-helper@v1.11
         with:
           actions: "create-comment"
           token: ${{ secrets.RYAN_TOKEN }}
@@ -20,7 +20,7 @@ jobs:
             你好 @${{ github.event.issue.user.login }}，我们完全同意你的提议/反馈，欢迎直接在此仓库创建一个 Pull Request 来解决这个问题。请将 Pull Request 发到正确的分支（新特性发到 feature 分支，其他发到 master 分支），务必填写 Pull Request 内的预设模板，提供改动所需相应的 changelog、TypeScript 定义、测试用例、文档等，并确保 CI 通过，我们会尽快进行 Review，提前感谢和期待您的贡献。
       - name: need repo
         if: github.event.label.name == '🤔 Need Reproduce'
-        uses: actions-cool/issues-helper@main
+        uses: actions-cool/issues-helper@v1.11
         with:
           actions: "create-comment"
           issue-number: ${{ github.event.issue.number }}
@@ -29,7 +29,7 @@ jobs:
             你好 @${{ github.event.issue.user.login }}, 我们需要你提供一个在线的重现实例以便于我们帮你排查问题。你可以通过点击 [此处](https://u.ant.design/codesandbox-repro) 创建一个 codesandbox 或者提供一个最小化的 GitHub 仓库。7 天内未跟进的 issue 将会被自动关闭。
       - name: to do
         if: github.event.label.name == '😄 to do'
-        uses: actions-cool/issues-helper@main
+        uses: actions-cool/issues-helper@v1.11
         with:
           actions: "create-comment"
           issue-number: ${{ github.event.issue.number }}
