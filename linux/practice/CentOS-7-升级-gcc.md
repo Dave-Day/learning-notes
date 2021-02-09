@@ -101,35 +101,35 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-SIG-SCLo
 ```
 
 ```ini
-# CentOS-SCLo-sclo.repo
+# CentOS-SCLo-rh.repo
 #
 # Please see http://wiki.centos.org/SpecialInterestGroup/SCLo for more
 # information
 
-[centos-sclo-sclo]
-name=CentOS-7 - SCLo sclo
-# baseurl=http://mirror.centos.org/centos/7/sclo/$basearch/sclo/
-mirrorlist=http://mirrorlist.centos.org?arch=$basearch&release=7&repo=sclo-sclo
+[centos-sclo-rh]
+name=CentOS-7 - SCLo rh
+baseurl=https://mirrors.tuna.tsinghua.edu.cn/centos/7/sclo/$basearch/rh/
+#mirrorlist=http://mirrorlist.centos.org?arch=$basearch&release=7&repo=sclo-rh
 gpgcheck=1
 enabled=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-SIG-SCLo
 
-[centos-sclo-sclo-testing]
-name=CentOS-7 - SCLo sclo Testing
-baseurl=http://buildlogs.centos.org/centos/7/sclo/$basearch/sclo/
+[centos-sclo-rh-testing]
+name=CentOS-7 - SCLo rh Testing
+baseurl=http://buildlogs.centos.org/centos/7/sclo/$basearch/rh/
 gpgcheck=0
 enabled=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-SIG-SCLo
 
-[centos-sclo-sclo-source]
-name=CentOS-7 - SCLo sclo Sources
-baseurl=http://vault.centos.org/centos/7/sclo/Source/sclo/
+[centos-sclo-rh-source]
+name=CentOS-7 - SCLo rh Sources
+baseurl=http://vault.centos.org/centos/7/sclo/Source/rh/
 gpgcheck=1
 enabled=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-SIG-SCLo
 
-[centos-sclo-sclo-debuginfo]
-name=CentOS-7 - SCLo sclo Debuginfo
+[centos-sclo-rh-debuginfo]
+name=CentOS-7 - SCLo rh Debuginfo
 baseurl=http://debuginfo.centos.org/centos/7/sclo/$basearch/
 gpgcheck=1
 enabled=0

@@ -1,6 +1,6 @@
 ---
 title: RHEL7 安装 EPEL 源
-url: linux-rhel-7-install-epel-repo
+url: rhel-7-install-epel-repo
 ---
 
 ## 介绍
@@ -86,8 +86,6 @@ $ sed -e 's!^metalink=!#metalink=!g' \
 ```bash
 $ subscription-manager repos --enable "rhel-*-optional-rpms" --enable "rhel-*-extras-rpms"  --enable "rhel-ha-for-rhel-*-server-rpms"
 ```
-
-![rhel-install-epel](https://img.zxj.guru/learn/linux/06/rhel-install-epel.png)
 
 ## 参考
 

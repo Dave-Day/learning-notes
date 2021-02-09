@@ -1,33 +1,13 @@
 ---
 title: 在线看图工具脚本 Picviewer CE+
-date: 2019-12-28 21:02:10
-categories: Plugins
+url: 24204
 ---
-
-<!-- more -->
-
-<!-- TOC -->
-
-- [在线看图工具脚本 Picviewer CE+](#在线看图工具脚本-picviewer-ce)
-  - [脚本特性](#脚本特性)
-  - [脚本说明](#脚本说明)
-  - [脚本地址](#脚本地址)
-  - [使用方法](#使用方法)
-    - [安装用户脚本管理器](#安装用户脚本管理器)
-    - [安装用户脚本](#安装用户脚本)
-    - [使用用户脚本](#使用用户脚本)
-
-<!-- /TOC -->
-
-<a id="markdown-在线看图工具脚本-picviewer-ce" name="在线看图工具脚本-picviewer-ce"></a>
 
 # 在线看图工具脚本 Picviewer CE+
 
 基于[ywzhaiqi](https://greasyfork.org/users/145) 的 [picviewer CE](https://greasyfork.org/scripts/5199) 2015.7.10.0 NLF 的围观图修改版，增加高清原图查找显示（在线看图工具，支持图片翻转、旋转、缩放、弹出大图、批量保存、查找原图、聚合所有分页大图、图片在线编辑）。
 
-[github author="hoothin" project="UserScripts"][/github]
-
-<a id="markdown-脚本特性" name="脚本特性"></a>
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=hoothin&repo=UserScripts&show_owner=true&locale&hide_border&theme=vue-dark)](https://github.com/hoothin/UserScripts)
 
 ## 脚本特性
 
@@ -38,8 +18,6 @@ categories: Plugins
 - 查找原图
 - 聚合所有分页大图
 - 图片在线编辑
-
-<a id="markdown-脚本说明" name="脚本说明"></a>
 
 ## 脚本说明
 
@@ -57,6 +35,8 @@ categories: Plugins
   - 修复自动重载（汤不热页面高度可能远大于 99999，且自动重载图片可能不限于本页）
 
 ---
+
+#
 
 - 新增內容
   - 批量下载库中筛选显示的图片
@@ -104,17 +84,11 @@ categories: Plugins
   - _gravatar_ 头像大图规则
   - 基于 1024 图床网站的大图规则
 
-<a id="markdown-脚本地址" name="脚本地址"></a>
-
 ## 脚本地址
 
 - [Picviewer CE+](https://greasyfork.org/zh-CN/scripts/24204-picviewer-ce)
 
-<a id="markdown-使用方法" name="使用方法"></a>
-
 ## 使用方法
-
-<a id="markdown-安装用户脚本管理器" name="安装用户脚本管理器"></a>
 
 ### 安装用户脚本管理器
 
@@ -131,13 +105,9 @@ categories: Plugins
 - Qupzilla：（不需要额外软件）
 - AdGuard：（不需要额外软件）
 
-<a id="markdown-安装用户脚本" name="安装用户脚本"></a>
-
 ### 安装用户脚本
 
 在您找到想要的用户脚本后，点击用户脚本页面上绿色的安装按钮，您的用户脚本管理器将向您确认是否安装。
-
-<a id="markdown-使用用户脚本" name="使用用户脚本"></a>
 
 ### 使用用户脚本
 

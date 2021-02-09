@@ -1,45 +1,17 @@
 ---
 title: 哔哩哔哩增强脚本 Bilibili Evolved
-date: 2019-12-27 07:23:47
-categories: Plugins
+url: 373563
 ---
 
-<!-- more -->
-
-<!-- TOC -->
-
-- [哔哩哔哩增强脚本 Bilibili Evolved](#哔哩哔哩增强脚本-bilibili-evolved)
-  - [脚本特性](#脚本特性)
-    - [视频](#视频)
-    - [样式](#样式)
-    - [动态](#动态)
-    - [工具](#工具)
-    - [触摸](#触摸)
-    - [直播](#直播)
-    - [消息](#消息)
-  - [已知问题](#已知问题)
-  - [脚本地址](#脚本地址)
-    - [备用安装源](#备用安装源)
-  - [使用方法](#使用方法)
-    - [安装用户脚本管理器](#安装用户脚本管理器)
-    - [安装用户脚本](#安装用户脚本)
-    - [使用用户脚本](#使用用户脚本)
-
-<!-- /TOC -->
-
-<a id="markdown-哔哩哔哩增强脚本-bilibili-evolved" name="哔哩哔哩增强脚本-bilibili-evolved"></a>
+#
 
 # 哔哩哔哩增强脚本 Bilibili Evolved
 
 强大的哔哩哔哩增强脚本: 下载视频, 音乐, 封面, 弹幕 / 简化直播间, 评论区, 首页 / 自定义顶栏, 删除广告, 夜间模式 / 触屏设备支持。
 
-[github author="the1812" project="Bilibili-Evolved"][/github]
-
-<a id="markdown-脚本特性" name="脚本特性"></a>
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=the1812&repo=Bilibili-Evolved&show_owner=true&locale&hide_border&theme=vue-dark)](https://github.com/the1812/Bilibili-Evolved)
 
 ## 脚本特性
-
-<a id="markdown-视频" name="视频"></a>
 
 ### 视频
 
@@ -59,8 +31,6 @@ categories: Plugins
 - 外置稍后再看
 - 双击全屏
 
-<a id="markdown-样式" name="样式"></a>
-
 ### 样式
 
 - 强大的夜间模式支持
@@ -73,8 +43,6 @@ categories: Plugins
 - 网页全屏强制保留弹幕栏
 - 根据屏幕 DPI 缩放直播间看板娘
 
-<a id="markdown-动态" name="动态"></a>
-
 ### 动态
 
 - 解除动态存图限制
@@ -82,8 +50,6 @@ categories: Plugins
 - 自动展开动态预览中的长标题
 - 自动展开动态正文的全部内容
 - 按照关键词/正则表达式/类型来过滤动态
-
-<a id="markdown-工具" name="工具"></a>
 
 ### 工具
 
@@ -101,16 +67,12 @@ categories: Plugins
 - 对图片做高分屏适配
 - 快速银瓜子换硬币
 
-<a id="markdown-触摸" name="触摸"></a>
-
 ### 触摸
 
 - 优化顶栏触摸体验
 - 为播放器开启触摸支持, 能够使用手势控制播放
 - 使触屏长按点赞支持素质三连
 - 迷你播放器支持触摸拖动
-
-<a id="markdown-直播" name="直播"></a>
 
 ### 直播
 
@@ -123,8 +85,6 @@ categories: Plugins
 - 自动选择当前直播间勋章
 - 直播弹幕记录器(实验性)
 
-<a id="markdown-消息" name="消息"></a>
-
 ### 消息
 
 - 显示消息
@@ -136,16 +96,12 @@ categories: Plugins
 - 加载模式
 - 设置面板停靠位置
 
-<a id="markdown-已知问题" name="已知问题"></a>
-
 ## 已知问题
 
 - 和`解除B站区域限制`一同使用时, 两个脚本功能互相没有任何问题, 但有的人会遇到没弹幕的状况. 单独使用各脚本时正常, 目前未找到原因.
 - 可能无法很好地适应窄屏幕, 请尽量以 1400px 以上的宽度使用此脚本.
 - ASS 弹幕下载不能包含高级弹幕, 字幕弹幕等.
 - `简化首页`可能会有无法加载`活动`栏目的情况, 目前未找到原因.
-
-<a id="markdown-脚本地址" name="脚本地址"></a>
 
 ## 脚本地址
 
@@ -159,8 +115,6 @@ categories: Plugins
 
 > 某些破坏性的大更新会使旧版脚本**完全**无法运行, 请及时检查更新.
 
-<a id="markdown-备用安装源" name="备用安装源"></a>
-
 ### 备用安装源
 
 如果默认的安装链接无法使用, 可以尝试以下的备用安装源(连接速度从高到低), 内容更新与 GitHub 可能稍有延迟.
@@ -171,11 +125,7 @@ categories: Plugins
 | GreasyFork | 12h      | [安装](https://greasyfork.org/scripts/373563-bilibili-evolved/code/Bilibili Evolved.user.js) | [安装](https://greasyfork.org/scripts/373564-bilibili-evolved-preview/code/Bilibili Evolved (Preview).user.js) | [安装](https://greasyfork.org/scripts/373565-bilibili-evolved-offline/code/Bilibili Evolved (Offline).user.js) | [安装](https://greasyfork.org/scripts/373566-bilibili-evolved-preview-offline/code/Bilibili Evolved (Preview Offline).user.js) |
 | GitHub     | <1h      | [安装](https://github.com/the1812/Bilibili-Evolved/raw/master/bilibili-evolved.user.js)      | [安装](https://github.com/the1812/Bilibili-Evolved/raw/preview/bilibili-evolved.preview.user.js)               | [安装](https://github.com/the1812/Bilibili-Evolved/raw/master/bilibili-evolved.offline.user.js)                | [安装](https://github.com/the1812/Bilibili-Evolved/raw/preview/bilibili-evolved.preview-offline.user.js)                       |
 
-<a id="markdown-使用方法" name="使用方法"></a>
-
 ## 使用方法
-
-<a id="markdown-安装用户脚本管理器" name="安装用户脚本管理器"></a>
 
 ### 安装用户脚本管理器
 
@@ -192,13 +142,9 @@ categories: Plugins
 - Qupzilla：（不需要额外软件）
 - AdGuard：（不需要额外软件）
 
-<a id="markdown-安装用户脚本" name="安装用户脚本"></a>
-
 ### 安装用户脚本
 
 在您找到想要的用户脚本后，点击用户脚本页面上绿色的安装按钮，您的用户脚本管理器将向您确认是否安装。
-
-<a id="markdown-使用用户脚本" name="使用用户脚本"></a>
 
 ### 使用用户脚本
 

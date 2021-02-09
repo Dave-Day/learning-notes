@@ -7,11 +7,11 @@ url: ijllcpnolfcooahcekpamkbidhejabll
 
 [简悦](http://ksria.com/simpread/) 是一个浏览器扩展，主要做的是：给你提供 **无干扰的沉浸式阅读体验。** 这款基于浏览器的插件可以实现自动提取标题、描述、正文、媒体 （ 图片 / 视频 ） 等资源；生成符合中文阅读习惯的页面，具备零干扰、沉浸式特点，适合深入阅读。
 
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=Kenshin&repo=simpread&show_owner=true&locale&hide_border)](https://github.com/Kenshin/simpread)
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=Kenshin&repo=simpread&show_owner=true&locale&hide_border&theme=vue-dark)](https://github.com/Kenshin/simpread)
 
-软件官网：[http://ksria.com/simpread](http://ksria.com/simpread)
+插件官网：[http://ksria.com/simpread](http://ksria.com/simpread)
 
-## 软件功能
+## 插件功能
 
 - [聚焦模式](http://ksria.com/simpread/docs/#/聚焦模式)
   不改变当前页面的结构，仅仅高亮需要阅读的部分，不分散用户的注意力；适合 `临时阅读` 或者 `未适配阅读模式` 的网站
@@ -70,17 +70,8 @@ url: ijllcpnolfcooahcekpamkbidhejabll
 
 - 稍后读
 
-## 相关链接
+## 插件安装
 
-- [更新日志](http://ksria.com/simpread/changelog.html)
-- [帮助中心](http://ksria.com/simpread/docs/#)
-- [新手入门](http://ksria.com/simpread/guide)
-- [常见问题](http://ksria.com/simpread/docs/#/FAQ)
-
-## 软件下载
-
-- [Chrome 应用商店](https://chrome.google.com/webstore/detail/%E7%AE%80%E6%82%A6-simpread/ijllcpnolfcooahcekpamkbidhejabll) 或者 [离线下载](http://ksria.com/simpread/crx/1.1.4/simpread.crx)
-- [Firefox 扩展中心](https://addons.mozilla.org/zh-CN/firefox/addon/simpread)
-- [支持 UserScript 的浏览器](https://greasyfork.org/zh-CN/scripts/39998) 如：Apple Safari · Microsoft Edge · Opera · Dolphin 详细 [请看这里](https://github.com/Kenshin/simpread-little)
-- [iPhone / iPad 版](https://xteko.com/redir?url=http://sr.ksria.cn/jsbox/simpread-1.0.0.box?201805251238&name=%E7%AE%80%E6%82%A6) 详细 [请看这里](http://ksria.com/simpread/docs/#/JSBox)
-- [Android 版](http://ksria.com/simpread/docs/#/Android) 详细 [请看这里](http://ksria.com/simpread/docs/#/Android)
+- 插件官网：[简悦 SimpRead - 如杂志般沉浸式阅读体验的扩展](http://ksria.com/simpread/)
+- Chrome 应用商店：[简悦 - SimpRead - Chrome 网上应用店](https://chrome.google.com/webstore/detail/simpread-reader-view/ijllcpnolfcooahcekpamkbidhejabll)
+- Edge 应用商店：[简悦 - SimpRead - Microsoft Edge Addons](https://microsoftedge.microsoft.com/addons/detail/简悦-simpread/clgdhlhfiocphghdkdbgdlmfaafccfmc)

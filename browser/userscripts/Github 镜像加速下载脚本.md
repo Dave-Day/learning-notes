@@ -1,30 +1,11 @@
 ---
 title: Github 镜像加速下载脚本
-date: 2019-11-08 22:07:46
-categories: Plugins
+url: 391911
 ---
 
-<!-- more -->
-
-<!-- TOC -->
-
-- [Github 镜像加速下载脚本](#github-镜像加速下载脚本)
-- [脚本描述](#脚本描述)
-- [脚本下载](#脚本下载)
-- [使用方法](#使用方法)
-  - [安装用户脚本管理器](#安装用户脚本管理器)
-  - [安装用户脚本](#安装用户脚本)
-  - [使用用户脚本](#使用用户脚本)
-
-<!-- /TOC -->
-
-<a id="markdown-github-镜像加速下载脚本" name="github-镜像加速下载脚本"></a>
-
-## Github 镜像加速下载脚本
+# Github 镜像加速下载脚本
 
 GitHub 是一个拥有全球大量用户的开源及私有软件项目的托管平台，因为只支持 git 代码仓库托管，故名 GitHub。众所周知，Github 由于服务器在国外，国内地区访问非常慢，下载项目通常要用代理访问。
-
-<a id="markdown-脚本描述" name="脚本描述"></a>
 
 ## 脚本描述
 
@@ -37,22 +18,12 @@ GitHub 是一个拥有全球大量用户的开源及私有软件项目的托管�
 - 使用折叠菜单来修改显示不那么突兀。
 - 增加 release 的下载加速按钮
 
-![img](https://greasyfork.org/system/screenshots/screenshots/000/017/835/original/WX20191108-174012.png)
-
-![img](https://greasyfork.org/system/screenshots/screenshots/000/017/836/original/WX20191108-174028.png)
-
-<a id="markdown-脚本下载" name="脚本下载"></a>
-
 ## 脚本下载
 
 - [GitHub 镜像加速下载-码酷博客-改](https://greasyfork.org/zh-CN/scripts/391911)
 - [GitHub 镜像加速下载-码酷博客](https://greasyfork.org/zh-CN/scripts/383577)
 
-<a id="markdown-使用方法" name="使用方法"></a>
-
 ## 使用方法
-
-<a id="markdown-安装用户脚本管理器" name="安装用户脚本管理器"></a>
 
 ### 安装用户脚本管理器
 
@@ -69,13 +40,9 @@ GitHub 是一个拥有全球大量用户的开源及私有软件项目的托管�
 - Qupzilla：（不需要额外软件）
 - AdGuard：（不需要额外软件）
 
-<a id="markdown-安装用户脚本" name="安装用户脚本"></a>
-
 ### 安装用户脚本
 
 在您找到想要的用户脚本后，点击用户脚本页面上绿色的安装按钮，您的用户脚本管理器将向您确认是否安装。
-
-<a id="markdown-使用用户脚本" name="使用用户脚本"></a>
 
 ### 使用用户脚本
 

@@ -7,20 +7,13 @@ url: klmeolbcejnhefkapdchfhlhhjgobhmo
 
 Git 代码目录树浏览工具，支持 GitHub 通知，Git 文件历史可视化。
 
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=ineo6&repo=git-master&show_owner=true&locale&hide_border)](https://github.com/ineo6/git-master)
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=ineo6&repo=git-master&show_owner=true&locale&hide_border&theme=vue-dark)](https://github.com/ineo6/git-master)
 
 | Github                                                                   | Git History                                                                        | Gitee                                                                  |
 | ------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
 | ![git-master-github](https://img.zxj.guru/2020/06/git-master-github.png) | ![git-master-git-history](https://img.zxj.guru/2020/06/git-master-git-history.png) | ![git-master-gitee](https://img.zxj.guru/2020/06/git-master-gitee.png) |
 
-## 安装
-
-- [Github](https://github.com/ineo6/git-master)
-- [Chrome Web Store](https://chrome.google.com/webstore/detail/git-master/klmeolbcejnhefkapdchfhlhhjgobhmo)
-- [Edge Web Store](https://microsoftedge.microsoft.com/addons/detail/pcpkfgepcjdmdfelbabogmgoadgmiocg)
-- [Firefox Addon](https://addons.mozilla.org/zh-CN/firefox/addon/git-master/)
-
-## 特性
+## 扩展特性
 
 - 🚀 代码树支持`GitHub`、`GitLab`、`Gitee`
 - 🖊️ 支持私有部署页面，一键标记
@@ -29,6 +22,13 @@ Git 代码目录树浏览工具，支持 GitHub 通知，Git 文件历史可视�
 - 🌗 `GitHub`支持黑暗模式
 - ⬇️ `GitHub`支持文件、目录下载
 - 📦 展示`GitHub`仓库和文件大小
+
+## 扩展安装
+
+- [Github](https://github.com/ineo6/git-master)
+- [Chrome Web Store](https://chrome.google.com/webstore/detail/git-master/klmeolbcejnhefkapdchfhlhhjgobhmo)
+- [Edge Web Store](https://microsoftedge.microsoft.com/addons/detail/pcpkfgepcjdmdfelbabogmgoadgmiocg)
+- [Firefox Addon](https://addons.mozilla.org/zh-CN/firefox/addon/git-master/)
 
 ## 设置
 
